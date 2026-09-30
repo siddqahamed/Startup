@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "db:init": "python scripts/init_db.py",
+    "db:reset": "python scripts/init_db.py --reset",
+    "server": "python server.py"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "lucide": "^1.48.0"
+  }
+}
